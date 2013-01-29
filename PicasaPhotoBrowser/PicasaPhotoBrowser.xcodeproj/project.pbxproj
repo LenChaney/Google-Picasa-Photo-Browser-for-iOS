@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA20091416B7729D001DE14C /* GDataPhoto.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = CA20091316B7729D001DE14C /* GDataPhoto.xcodeproj */; };
+		CA20091616B772E5001DE14C /* libGDataPhoto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20091516B772E5001DE14C /* libGDataPhoto.a */; };
+		CA20091816B7742A001DE14C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20091716B7742A001DE14C /* SystemConfiguration.framework */; };
+		CA20091A16B7749E001DE14C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA20091916B7749E001DE14C /* Security.framework */; };
+		CA24022816B75844003DE905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA24022716B75844003DE905 /* UIKit.framework */; };
+		CA24022A16B75844003DE905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA24022916B75844003DE905 /* Foundation.framework */; };
+		CA24022C16B75844003DE905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA24022B16B75844003DE905 /* CoreGraphics.framework */; };
+		CA24023216B75844003DE905 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA24023016B75844003DE905 /* InfoPlist.strings */; };
+		CA24023416B75844003DE905 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24023316B75844003DE905 /* main.m */; };
+		CA24023816B75844003DE905 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24023716B75844003DE905 /* DPAppDelegate.m */; };
+		CA24023A16B75844003DE905 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24023916B75844003DE905 /* Default.png */; };
+		CA24023C16B75844003DE905 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24023B16B75844003DE905 /* Default@2x.png */; };
+		CA24023E16B75844003DE905 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24023D16B75844003DE905 /* Default-568h@2x.png */; };
+		CA24024116B75844003DE905 /* DPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24024016B75844003DE905 /* DPFirstViewController.m */; };
+		CA24024316B75844003DE905 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24024216B75844003DE905 /* first.png */; };
+		CA24024516B75844003DE905 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24024416B75844003DE905 /* first@2x.png */; };
+		CA24024816B75844003DE905 /* DPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24024716B75844003DE905 /* DPSecondViewController.m */; };
+		CA24024A16B75844003DE905 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24024916B75844003DE905 /* second.png */; };
+		CA24024C16B75844003DE905 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA24024B16B75844003DE905 /* second@2x.png */; };
+		CA24024F16B75844003DE905 /* DPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24024D16B75844003DE905 /* DPFirstViewController.xib */; };
+		CA24025216B75844003DE905 /* DPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24025016B75844003DE905 /* DPSecondViewController.xib */; };
+		CA24025F16B758CC003DE905 /* DPAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24025916B758CC003DE905 /* DPAlbumVC.m */; };
+		CA24026016B758CC003DE905 /* DPAlbumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24025A16B758CC003DE905 /* DPAlbumVC.xib */; };
+		CA24026116B758CC003DE905 /* DPFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24025C16B758CC003DE905 /* DPFlipsideViewController.m */; };
+		CA24026216B758CC003DE905 /* DPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24025E16B758CC003DE905 /* DPMainViewController.m */; };
+		CA24026516B758E1003DE905 /* DPFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24026316B758E1003DE905 /* DPFlipsideViewController.xib */; };
+		CA24026616B758E1003DE905 /* DPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA24026416B758E1003DE905 /* DPMainViewController.xib */; };
+		CA24026A16B75BA1003DE905 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA24026916B75BA1003DE905 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA20091316B7729D001DE14C /* GDataPhoto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = file; name = GDataPhoto.xcodeproj; path = ../gdataStaticLib/GDataPhoto.xcodeproj; sourceTree = "<group>"; };
+		CA20091516B772E5001DE14C /* libGDataPhoto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGDataPhoto.a; path = "../../../Library/Developer/Xcode/DerivedData/gdata3workspace-efjcwnkjigpexefnsjobqkpsaphf/Build/Products/Debug-iphoneos/libGDataPhoto.a"; sourceTree = "<group>"; };
+		CA20091716B7742A001DE14C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA20091916B7749E001DE14C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA24022416B75844003DE905 /* PicasaPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicasaPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA24022716B75844003DE905 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA24022916B75844003DE905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA24022B16B75844003DE905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA24022F16B75844003DE905 /* PicasaPhotoBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicasaPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
+		CA24023116B75844003DE905 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA24023316B75844003DE905 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA24023516B75844003DE905 /* PicasaPhotoBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicasaPhotoBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		CA24023616B75844003DE905 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
+		CA24023716B75844003DE905 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
+		CA24023916B75844003DE905 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA24023B16B75844003DE905 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA24023D16B75844003DE905 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA24023F16B75844003DE905 /* DPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPFirstViewController.h; sourceTree = "<group>"; };
+		CA24024016B75844003DE905 /* DPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPFirstViewController.m; sourceTree = "<group>"; };
+		CA24024216B75844003DE905 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CA24024416B75844003DE905 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CA24024616B75844003DE905 /* DPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPSecondViewController.h; sourceTree = "<group>"; };
+		CA24024716B75844003DE905 /* DPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPSecondViewController.m; sourceTree = "<group>"; };
+		CA24024916B75844003DE905 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CA24024B16B75844003DE905 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CA24024E16B75844003DE905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPFirstViewController.xib; sourceTree = "<group>"; };
+		CA24025116B75844003DE905 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DPSecondViewController.xib; sourceTree = "<group>"; };
+		CA24025816B758CC003DE905 /* DPAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAlbumVC.h; sourceTree = "<group>"; };
+		CA24025916B758CC003DE905 /* DPAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAlbumVC.m; sourceTree = "<group>"; };
+		CA24025A16B758CC003DE905 /* DPAlbumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPAlbumVC.xib; sourceTree = "<group>"; };
+		CA24025B16B758CC003DE905 /* DPFlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFlipsideViewController.h; sourceTree = "<group>"; };
+		CA24025C16B758CC003DE905 /* DPFlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFlipsideViewController.m; sourceTree = "<group>"; };
+		CA24025D16B758CC003DE905 /* DPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMainViewController.h; sourceTree = "<group>"; };
+		CA24025E16B758CC003DE905 /* DPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMainViewController.m; sourceTree = "<group>"; };
+		CA24026316B758E1003DE905 /* DPFlipsideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPFlipsideViewController.xib; sourceTree = "<group>"; };
+		CA24026416B758E1003DE905 /* DPMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DPMainViewController.xib; sourceTree = "<group>"; };
+		CA24026916B75BA1003DE905 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA24022116B75844003DE905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA20091A16B7749E001DE14C /* Security.framework in Frameworks */,
+				CA20091816B7742A001DE14C /* SystemConfiguration.framework in Frameworks */,
+				CA24026A16B75BA1003DE905 /* libxml2.dylib in Frameworks */,
+				CA24022816B75844003DE905 /* UIKit.framework in Frameworks */,
+				CA24022A16B75844003DE905 /* Foundation.framework in Frameworks */,
+				CA24022C16B75844003DE905 /* CoreGraphics.framework in Frameworks */,
+				CA20091616B772E5001DE14C /* libGDataPhoto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA24021B16B75844003DE905 = {
+			isa = PBXGroup;
+			children = (
+				CA20091916B7749E001DE14C /* Security.framework */,
+				CA20091716B7742A001DE14C /* SystemConfiguration.framework */,
+				CA20091516B772E5001DE14C /* libGDataPhoto.a */,
+				CA20091316B7729D001DE14C /* GDataPhoto.xcodeproj */,
+				CA24026916B75BA1003DE905 /* libxml2.dylib */,
+				CA24022D16B75844003DE905 /* PicasaPhotoBrowser */,
+				CA24022616B75844003DE905 /* Frameworks */,
+				CA24022516B75844003DE905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA24022516B75844003DE905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA24022416B75844003DE905 /* PicasaPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA24022616B75844003DE905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA24022716B75844003DE905 /* UIKit.framework */,
+				CA24022916B75844003DE905 /* Foundation.framework */,
+				CA24022B16B75844003DE905 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA24022D16B75844003DE905 /* PicasaPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CA24025816B758CC003DE905 /* DPAlbumVC.h */,
+				CA24025916B758CC003DE905 /* DPAlbumVC.m */,
+				CA24025A16B758CC003DE905 /* DPAlbumVC.xib */,
+				CA24025B16B758CC003DE905 /* DPFlipsideViewController.h */,
+				CA24025C16B758CC003DE905 /* DPFlipsideViewController.m */,
+				CA24025D16B758CC003DE905 /* DPMainViewController.h */,
+				CA24025E16B758CC003DE905 /* DPMainViewController.m */,
+				CA24026316B758E1003DE905 /* DPFlipsideViewController.xib */,
+				CA24026416B758E1003DE905 /* DPMainViewController.xib */,
+				CA24023616B75844003DE905 /* DPAppDelegate.h */,
+				CA24023716B75844003DE905 /* DPAppDelegate.m */,
+				CA24023F16B75844003DE905 /* DPFirstViewController.h */,
+				CA24024016B75844003DE905 /* DPFirstViewController.m */,
+				CA24024216B75844003DE905 /* first.png */,
+				CA24024416B75844003DE905 /* first@2x.png */,
+				CA24024616B75844003DE905 /* DPSecondViewController.h */,
+				CA24024716B75844003DE905 /* DPSecondViewController.m */,
+				CA24024916B75844003DE905 /* second.png */,
+				CA24024B16B75844003DE905 /* second@2x.png */,
+				CA24024D16B75844003DE905 /* DPFirstViewController.xib */,
+				CA24025016B75844003DE905 /* DPSecondViewController.xib */,
+				CA24022E16B75844003DE905 /* Supporting Files */,
+			);
+			path = PicasaPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CA24022E16B75844003DE905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA24022F16B75844003DE905 /* PicasaPhotoBrowser-Info.plist */,
+				CA24023016B75844003DE905 /* InfoPlist.strings */,
+				CA24023316B75844003DE905 /* main.m */,
+				CA24023516B75844003DE905 /* PicasaPhotoBrowser-Prefix.pch */,
+				CA24023916B75844003DE905 /* Default.png */,
+				CA24023B16B75844003DE905 /* Default@2x.png */,
+				CA24023D16B75844003DE905 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA24022316B75844003DE905 /* PicasaPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA24025516B75844003DE905 /* Build configuration list for PBXNativeTarget "PicasaPhotoBrowser" */;
+			buildPhases = (
+				CA24022016B75844003DE905 /* Sources */,
+				CA24022116B75844003DE905 /* Frameworks */,
+				CA24022216B75844003DE905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicasaPhotoBrowser;
+			productName = PicasaPhotoBrowser;
+			productReference = CA24022416B75844003DE905 /* PicasaPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA24021C16B75844003DE905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dan Park";
+			};
+			buildConfigurationList = CA24021F16B75844003DE905 /* Build configuration list for PBXProject "PicasaPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA24021B16B75844003DE905;
+			productRefGroup = CA24022516B75844003DE905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA24022316B75844003DE905 /* PicasaPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA24022216B75844003DE905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24023216B75844003DE905 /* InfoPlist.strings in Resources */,
+				CA24023A16B75844003DE905 /* Default.png in Resources */,
+				CA24023C16B75844003DE905 /* Default@2x.png in Resources */,
+				CA24023E16B75844003DE905 /* Default-568h@2x.png in Resources */,
+				CA24024316B75844003DE905 /* first.png in Resources */,
+				CA24024516B75844003DE905 /* first@2x.png in Resources */,
+				CA24024A16B75844003DE905 /* second.png in Resources */,
+				CA24024C16B75844003DE905 /* second@2x.png in Resources */,
+				CA24024F16B75844003DE905 /* DPFirstViewController.xib in Resources */,
+				CA24025216B75844003DE905 /* DPSecondViewController.xib in Resources */,
+				CA24026016B758CC003DE905 /* DPAlbumVC.xib in Resources */,
+				CA24026516B758E1003DE905 /* DPFlipsideViewController.xib in Resources */,
+				CA24026616B758E1003DE905 /* DPMainViewController.xib in Resources */,
+				CA20091416B7729D001DE14C /* GDataPhoto.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA24022016B75844003DE905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24023416B75844003DE905 /* main.m in Sources */,
+				CA24023816B75844003DE905 /* DPAppDelegate.m in Sources */,
+				CA24024116B75844003DE905 /* DPFirstViewController.m in Sources */,
+				CA24024816B75844003DE905 /* DPSecondViewController.m in Sources */,
+				CA24025F16B758CC003DE905 /* DPAlbumVC.m in Sources */,
+				CA24026116B758CC003DE905 /* DPFlipsideViewController.m in Sources */,
+				CA24026216B758CC003DE905 /* DPMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA24023016B75844003DE905 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24023116B75844003DE905 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA24024D16B75844003DE905 /* DPFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24024E16B75844003DE905 /* en */,
+			);
+			name = DPFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		CA24025016B75844003DE905 /* DPSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24025116B75844003DE905 /* en */,
+			);
+			name = DPSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA24025316B75844003DE905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dpark/Desktop/gdata/gdata-objc/Source/**",
+					"/usr/include/libxml2/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA24025416B75844003DE905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dpark/Desktop/gdata/gdata-objc/Source/**",
+					"/usr/include/libxml2/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA24025616B75844003DE905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicasaPhotoBrowser/PicasaPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "PicasaPhotoBrowser/PicasaPhotoBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gdata-workspace-gcgndcvmsgjwbldnafrttmdlxnox/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gdata3workspace-efjcwnkjigpexefnsjobqkpsaphf/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/GDataPhoto-gdeksuyffemnereomxxpzeyjuhdb/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA24025716B75844003DE905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicasaPhotoBrowser/PicasaPhotoBrowser-Prefix.pch";
+				INFOPLIST_FILE = "PicasaPhotoBrowser/PicasaPhotoBrowser-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gdata-workspace-gcgndcvmsgjwbldnafrttmdlxnox/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/gdata3workspace-efjcwnkjigpexefnsjobqkpsaphf/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/GDataPhoto-gdeksuyffemnereomxxpzeyjuhdb/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA24021F16B75844003DE905 /* Build configuration list for PBXProject "PicasaPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24025316B75844003DE905 /* Debug */,
+				CA24025416B75844003DE905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA24025516B75844003DE905 /* Build configuration list for PBXNativeTarget "PicasaPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24025616B75844003DE905 /* Debug */,
+				CA24025716B75844003DE905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA24021C16B75844003DE905 /* Project object */;
+}
